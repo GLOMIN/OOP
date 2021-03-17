@@ -2,14 +2,14 @@ import java.awt.event.*;
 import java.awt.*;
 import javax.swing.*;
 
-public class JavaCalculator extends JFrame implements ActionListener {
+public class Calculator extends JFrame implements ActionListener {
     JButton b10, b11, b12, b13, b14, b15;
     JButton b[] = new JButton[10];
     int i, r, n1, n2;
     JTextField res;
     char op;
 
-    public JavaCalculator() {
+    public Calculator() {
         super("Calulator");
         setLayout(new BorderLayout());
         JPanel p = new JPanel();
