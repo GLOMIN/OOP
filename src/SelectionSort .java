@@ -10,7 +10,11 @@ class SelectionSort
 			
 			// ค้นหาองค์ประกอบขั้นต่ำในอาร์เรย์ที่ไม่ได้เรียงลำดับ
 			int min_idx = i; // 1 , 2
-			for (int j = i+1; j < n; j++) //
+			for (int j = i+1; j < n; j++) 
+			//1; 1 < 5; 2  
+			//2 < 5; 3
+			//3 < 5; 4 
+			//4 < 5; 5
 
 				if (arr[j] < arr[min_idx]) // 
 					min_idx = j; //
