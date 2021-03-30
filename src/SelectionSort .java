@@ -35,4 +35,22 @@ class SelectionSort {
 		ob.printArray(arr);
 	}
 }
+
+// arr[] = {73, 45, 26 , 59 , 87}
+
+// Find the minimum element in arr[0...4]
+// and place it at beginning
+// 26 25 73 22 64
+
+// Find the minimum element in arr[1...4]
+// and place it at beginning of arr[1...4]
+// 26 45 73 22 64
+
+// Find the minimum element in arr[2...4]
+// and place it at beginning of arr[2...4]
+// 26 45 59 73 64
+
+// Find the minimum element in arr[3...4]
+// and place it at beginning of arr[3...4]
+// 26 45 59 64 73
 /* This code is contributed by Rajat Mishra */
