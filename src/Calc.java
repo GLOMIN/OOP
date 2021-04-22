@@ -159,7 +159,7 @@ class Calc implements ActionListener {
 			t.setText("");
 		}
 
-		if (e.getSource() == beq) {
+		if (e.getSource() == beq /*||e.getSource() == badd ||e.getSource() == bsub||e.getSource() == bmul || e.getSource() == bdiv*/ )   {
 			b = Double.parseDouble(t.getText());
 
 			switch (operator) {
